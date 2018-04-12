@@ -6,10 +6,11 @@
     android:layout_height="match_parent"
     tools:context="ph.appsolutely.test.MainActivity">
 
-    <com.otaliastudios.cameraview.CameraView
-        android:id="@+id/camera"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:keepScreenOn="true" />
+    <SurfaceView
+        android:id="@+id/cameraPrev"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+         />
 
 </android.support.constraint.ConstraintLayout>
